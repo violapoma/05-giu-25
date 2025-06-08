@@ -1,0 +1,21 @@
+come la sto facendo
+
+for (let song of songs) //ogni canzone trovata
+
+  <div class='col mb-4'> //col append:  TODO
+    <div class='card h-100 text-dark'> //songCard append: TODO
+      <img class='card-img-top d-block w-100> //songImg append: songCard
+      <div class='card-body'> //songBody append: TODO
+        <h3 class='card-title'> //songTitle append: songBody
+        </h3>
+        <p class='card-text fs-5 fw-light'> //songInfo append: songBody
+        </p>
+        <audio controls class='w-100'> //player append: songBody
+        </audio>
+      </div> //songBody append: songCard
+      //img già appesa a songCard
+    </div> //songCard append: col
+  </div> //col append: artistSection -> #${artist}Section || #searchSection
+-----------------
+fuori for: 
+artistContainer.classList.remove('d-none'); -> document.elemID(artist) || ('found')
