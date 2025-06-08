@@ -1,6 +1,4 @@
-come la sto facendo
-
-for (let song of songs) //ogni canzone trovata
+*** STRUTTURA PER CARD BRANO ***** 
 
   <div class='col mb-4'> //col append:  TODO
     <div class='card h-100 text-dark'> //songCard append: TODO
@@ -16,6 +14,3 @@ for (let song of songs) //ogni canzone trovata
       //img già appesa a songCard
     </div> //songCard append: col
   </div> //col append: artistSection -> #${artist}Section || #searchSection
------------------
-fuori for: 
-artistContainer.classList.remove('d-none'); -> document.elemID(artist) || ('found')
